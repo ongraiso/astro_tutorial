@@ -1,0 +1,9 @@
+.notebox{
+    border-color: grey;
+}
+.waring{
+    border-color: bisque;
+}
+.danger{
+    border-color: aqua;
+}
