@@ -1,3 +1,4 @@
+---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Wails Guide Application Development'
 pubDate: "2023-11-11"
@@ -7,7 +8,7 @@ image:
     url: 'https://docs.astro.build/assets/full-logo-light.png'
     alt: 'The full Astro logo.'
 tags: ["Wails", "blogging", "learning in public"]
-
+---
 # Application Development
 
 There are no hard and fast rules for developing applications with Wails, but there are some basic guidelines.
