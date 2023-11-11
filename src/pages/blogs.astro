@@ -16,11 +16,23 @@ import Footer1 from "../components/Footer1.astro";
         <Header1/>
         <h1>我的{pageTitle}网站</h1>
         <p>在这里，我将分享我的魔法王国之旅。</p>
-        <ul>
+        <!-- <ul>
             <li><a href="/posts/post-1/">文章 1</a></li>
             <li><a href="/posts/post-2/">文章 2</a></li>
             <li><a href="/posts/post-3/">文章 3</a></li>
+        </ul> -->
+        <ul>
+            {Array.from({length:3},(_,index)=>(
+                <li><a href={ `/posts/post-${index+1}/`}>文章 {index+1}</a></li>
+            ))}
         </ul>
+        <ul>
+            {Array.from({ length: 8 }, (_, index) => (
+              <li key={index}>
+                <a href={`/posts/post-${index + 1}/`}>文章 {index + 1}</a>
+              </li>
+            ))}
+          </ul>
         <Footer1/>
         <script>
 			import "../scripts/menu.js";
