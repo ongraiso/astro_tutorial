@@ -1,8 +1,9 @@
 ---
-import Header from '../components/Header1.astro';
-import Footer from '../components/Footer1.astro';
+import Header from '../components/Header2.astro';
+import Footer from '../components/Footer2.astro';
 import '../styles/global.css';
-const {pageTitle} = Astro.props
+const {pageTitle} =Astro.props;
+import "../styles/global_foo.css";
 ---
 <html lang="zh-cn">
   <head>
@@ -11,12 +12,20 @@ const {pageTitle} = Astro.props
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
+    <style>
+      h1 {
+          color: rgb(165, 2, 165);
+          font-size: 4rem;
+      }
+      
+  </style>
   </head>
   <body>
     <Header />
     <h1>{pageTitle}</h1>
     <slot/>
     <Footer />
+    
     <script>
       import "../scripts/menu.js";
     </script>

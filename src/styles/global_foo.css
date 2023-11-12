@@ -1,0 +1,139 @@
+html {
+    background-color: #f1f5f9;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 80ch;
+    padding: 1rem;
+    line-height: 1.5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 1rem 0;
+    font-size: 2.5rem;
+}
+
+/* 导航样式 */
+.hamburger {
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.hamburger .line {
+    display: block;
+    width: 40px;
+    height: 5px;
+    margin-bottom: 10px;
+    background-color: #ff9776;
+}
+
+.nav-links {
+    width: 100%;
+    top: 5rem;
+    left: 48px;
+    background-color: #d23505;
+    display: none;
+    margin: 0;
+}
+
+.nav-links a {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+    background-color: #ff9776;
+}
+
+.expanded {
+    display: unset;
+}
+
+@media screen and (min-width: 636px) {
+    .nav-links {
+        margin-left: 5em;
+        display: block;
+        position: static;
+        width: auto;
+        background: none;
+    }
+
+    .nav-links a {
+        display: inline-block;
+        padding: 15px 20px;
+    }
+    .hamburger {
+        display: none;
+      }
+}
+
+/* 这段代码是一段用于定义导航链接样式的CSS代码。下面是对每个部分的解释：
+
+.nav-links {
+width: 100%;
+top: 5rem;
+left: 48px;
+background-color: #ff9776;
+display: none;
+margin: 0;
+}
+
+这段代码定义了一个类名为"nav-links"的样式。它设置了宽度为100%，距离顶部5rem，距离左边48px，背景颜色为#ff9776，初始时不显示(display: none)，并且设置边距为0。
+
+.nav-links a {
+display: block;
+text-align: center;
+padding: 10px 0;
+text-decoration: none;
+font-size: 1.2rem;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+这段代码定义了在.nav-links内部的链接样式。它设置链接显示为块级元素(display: block)，居中对齐(text-align: center)，垂直内边距为10px，水平内边距为0，去除下划线(text-decoration: none)，字体大小为1.2rem，字体加粗(font-weight: bold)，并将字母转换为大写(text-transform: uppercase)。
+
+.nav-links a:hover,
+.nav-links a:focus {
+background-color: #ff9776;
+}
+
+这段代码定义了鼠标悬停或链接获得焦点时的样式。它将背景颜色设置为#ff9776。
+
+.expanded {
+display: unset;
+}
+
+这段代码定义了一个类名为"expanded"的样式。它将元素的显示属性设置为默认值，取消了之前的display: none设置。
+
+@media screen and (min-width: 636px) {
+.nav-links {
+margin-left: 5em;
+display: block;
+position: static;
+width: auto;
+background: none;
+}
+
+.nav-links a {
+display: inline-block;
+padding: 15px 20px;
+}
+}
+
+这段代码是一个媒体查询，它指定了在屏幕宽度大于等于636px时的样式。在这个样式中，.nav-links类的左边距设置为5em，显示为块级元素(display: block)，位置设置为静态(position: static)，宽度设置为自动(width: auto)，并将背景设置为透明。.nav-links内部的链接设置为内联块级元素(display: inline-block)，垂直内边距为15px，水平内边距为20px。
+
+综上所述，这段代码定义了导航链接在不同状态和屏幕尺寸下的样式。初始时，导航链接不显示，当触发某个条件时（例如鼠标悬停或链接获得焦点），链接的背景颜色会改变。在屏幕宽度大于等于636px时，导航链接的样式也会有所不同，包括左边距、显示方式和内边距等。 */
