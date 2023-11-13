@@ -1,3 +1,14 @@
+---
+layout: ../../layouts/MarkdownPostLayout.astro
+title: 打基础
+author: Astro 学习者
+description: "基础的寻找和学习 ！"
+image:
+    url: "https://docs.astro.build/assets/rays.webp"
+    alt: "Thumbnail of Astro rays."
+pubDate: 2022-07-15
+tags: ["astro", "learning in public", "setbacks", "community"]
+---
 ## ⼗四、基础的寻找和学习 
 
 

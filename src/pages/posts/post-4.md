@@ -1,10 +1,14 @@
-
-作者：孟佳明
-链接：https://www.zhihu.com/question/423648872/answer/1505895971
-来源：知乎
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
-
-
+---
+layout: ../../layouts/MarkdownPostLayout.astro
+title: 如何学习官方文档
+author: Astro 学习者
+description: "读不懂官方文档，我想问他们是怎么学习的?"
+image:
+    url: "https://docs.astro.build/assets/rays.webp"
+    alt: "Thumbnail of Astro rays."
+pubDate: 2022-07-15
+tags: ["astro", "learning in public", "setbacks", "community"]
+---
 # 读不懂官方文档，我想问他们是怎么学习的?
 
 行业中许多刚入门技术人员阅读官方文档困难，正如许多国人学了几十年汉语后依旧读不懂诗歌、看不进去散文一样，原因在于他们没有认真思考过为什么会出现各种各样体裁的文章。

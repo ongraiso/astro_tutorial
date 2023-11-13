@@ -1,3 +1,14 @@
+---
+layout: ../../layouts/MarkdownPostLayout.astro
+title: 三年时间规划
+author: Astro 学习者
+description: "⼗七、三年的时间规划！"
+image:
+    url: "https://docs.astro.build/assets/rays.webp"
+    alt: "Thumbnail of Astro rays."
+pubDate: 2022-07-15
+tags: ["astro", "learning in public", "setbacks", "community"]
+---
 ## ⼗七、三年的时间规划
 
 

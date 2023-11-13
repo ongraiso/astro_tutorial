@@ -18,11 +18,14 @@ import Navigation from "../components/Navigation.astro";
             {
                 Array(3)
                     .fill(1)
-                    .map((_, i) => (
-                        <li>
+                    // .map((_, i) => { return (<li>
+                    //         <a href={`/post/post-${i + 1}`}>post-{i + 1}</a>
+                    //     </li>)
+                    // })
+                    .map((_, i) =>  (<li>
                             <a href={`/post/post-${i + 1}`}>post-{i + 1}</a>
-                        </li>
-                    ))
+                        </li>)
+                    )
             }
         </ul>
     </body>

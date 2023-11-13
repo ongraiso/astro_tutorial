@@ -1,14 +1,16 @@
 ---
-title: 我的第二篇博客文章
+layout: ../../layouts/MarkdownPostLayout.astro
+title: 洛克王国9月29日更新速递
 author: Astro 学习者
-description: "学习了一些 Astro 后，我根本停不下来！"
+description: "学习了王国的一些 魔法 后，我根本停不下来！"
 image:
     url: "https://docs.astro.build/assets/arc.webp"
     alt: "Thumbnail of Astro arcs."
-pubDate: 2022-07-08
-tags: ["astro", "blogging", "learning in public", "successes"]
+pubDate: 2023-09-29
+tags: ["astro", "blogging", "learning in public", "successes","roco"]
+
 ---
-# 洛克王国9月29日更新速递
+
 
 2023-09-27 16:17:00　　字体：【[大](javascript:doZoom(16)) [中](javascript:doZoom(14)) [小](javascript:doZoom(12))】
 
